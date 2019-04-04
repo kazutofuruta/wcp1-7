@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	width:960px;
+	margin:0 auto;
+}
+.header-box{
+	padding: 50px 0;
+}
+.header-box p{
+	font-size:10px;
+	padding: 20px 0 20px 20px;
+}
+.header-box p:nth-child(odd){
+	background-color: #DDDDDD;
+}
+
+main{
+	width:960px;
+	margin:0 auto;
+}
+.main-box{
+    height:680px;
+    background:#fff;
+    margin-bottom:50px;
+}
+
+.box1, .box2,.box3, .box4,.box5, .box6,.box7, .box8, .box9{
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+.box1{
+	background-color:orange;
+}
+.box2{
+	margin:0 5%;
+	background-color:yellow;
+}
+.box3{
+	background-color:yellow;
+}
+.box4{
+	margin:40px 0;
+	background-color:yellow;
+}
+.box5{
+	margin:40px 5%;
+	background-color:orange;
+}
+.box6{
+	margin:40px 0;
+	background-color:yellow;
+}
+.box7{
+	background-color:yellow;
+}.box8{
+	margin:0 5%;
+	background-color:yellow;
+}.box9{
+	background-color:orange;
+}
